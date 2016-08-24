@@ -6,7 +6,8 @@ body {
 
 nav {
 	position: absolute;
-	right: 30px;
+	right: 20px;
+	top: 10px;
 
 }
 
@@ -26,6 +27,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+img {
+    margin: 15px 27%;
+}
+
 button {
 	background: #F4F4F4;
 	padding: 10px 15px;
@@ -38,10 +43,39 @@ button {
 }
 
 
+button.signIn {
+	border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+    padding: 6px 10px;
+}
+
+
 .content {
-	position: absolute;
-	top: 30%;
-	left: calc(50% - 10%);
+	width: 638px;
+	margin: 10% auto 0 auto;
+}
+
+
+input:focus {
+    outline:none;
+}
+
+input:active {
+	border: 1px solid #4d90fe;
+}
+
+.sb {
+	width: 638px;
+	border: 1px solid #D9D9D9;
+	height: 38px;
+}
+
+.sb:hover {
+	border: 1px solid #b9b9b9;
 }
 
 footer {
