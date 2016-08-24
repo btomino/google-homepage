@@ -6,7 +6,7 @@ body {
 
 nav {
 	position: absolute;
-	right: 0;
+	right: 30px;
 
 }
 
@@ -26,6 +26,24 @@ a:hover {
 	text-decoration: underline;
 }
 
+button {
+	background: #F4F4F4;
+	padding: 10px 15px;
+	border-radius: 2px;
+	border: 0;
+	color: #757575;
+	font-weight: 600;
+	font-size: 13px;
+	margin: 0 5px;
+}
+
+
+.content {
+	position: absolute;
+	top: 30%;
+	left: calc(50% - 10%);
+}
+
 footer {
 	width: 100%;
 	background: #EFEFEF;
@@ -42,14 +60,11 @@ footer a {
 
 .fl {
 	float: left;
+	padding-left: 20px;
 }
 
 .fr {
 	float: right;
-	margin-right: 30px;
+	margin-right: 20px;
 }
 
-center {
-    display: block;
-    text-align: -webkit-center;
-}
